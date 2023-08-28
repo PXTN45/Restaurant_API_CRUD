@@ -26,10 +26,11 @@ const addResto = async () => {
         .then((restaurant) => {
           alert("New restaurant id:  " + restaurant.id + "is created");
         });
-    } catch (error) {
-      alert("Cannot add new restaurant");
+      } catch (error) {
+      }
+    } else {
+      alert("All fields are requird !");
     }
-  } else {
-    alert("All fields are requird !");
-  }
+    window.location.href = "./index.html";
+  
 };
