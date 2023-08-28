@@ -3,7 +3,7 @@ const genRestaurantCard = (restaurant) => {
       
     const card = document.createElement("div")
     card.className = "card";
-    card.style = "width: 20rem"
+    card.style = "width: 18rem"
       const restoCard = `
             <img src="${restaurant.img}" class="card-img-top " alt="...">
             <div class="card-body ">
